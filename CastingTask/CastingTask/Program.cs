@@ -9,6 +9,7 @@ namespace CastingTask.Models
             Person[] students = new Student[0];
             Person[] teachers = new Teacher[0];
             GroupMate groupMate = new GroupMate();
+            int index = 0;
             int key;
 
 
@@ -23,21 +24,55 @@ namespace CastingTask.Models
                 switch (key)
                 {
                     case 1:
-
+                        string Sname = "";
+                        string Ssurname = "";
+                        int Sage = 0;
+                        double point = 0;
+                        InputStudentName(Sname);
+                        InputStudentSurname(Ssurname);
+                        InputAgeStudent(Sage);
+                        InputStudentPoint(point);
+                        Student student = new Student(Sname, Ssurname, Sage, point);
+                        
+                        break;
+                    case 2:
+                        string Tname = "";
+                        string Tsurname = "";
+                        int Tage = 0;
+                        double salary = 0;
+                        InputTeacherName(Tname);
+                        InputTeacherSurname(Tsurname);
+                        InputAgeTeacher(Tage);
+                        InpuTeachertSalary(salary);
+                        Teacher teacher = new Teacher(Tname, Tsurname, Tage, salary);
+                        
+                        break;
                     default:
                         break;
                 }
-            } while (key != 0);
+            } while (key != 4);
         }
-        static void InputName(string name)
+        static void InputStudentName(string name)
         {
             Console.WriteLine("Ad daxil edin");
             name = Console.ReadLine();
         }
-        static void InputSurname(string surname)
+        static void InputStudentSurname(string surname)
         {
-            Console.WriteLine("Ad daxil edin");
+            Console.WriteLine("Soyad daxil edin");
             surname = Console.ReadLine();
+        }
+        public static void InputAgeStudent(int age)
+        {
+            do
+            {
+                Console.WriteLine("Yasi daxil edin");
+                age = Convert.ToInt32(Console.ReadLine());
+                if (age < 6 || age > 20)
+                {
+                    Console.WriteLine("Yanlis daxil edilib");
+                }
+            } while (age < 6 || age > 20);
         }
         public static void InputStudentPoint(double point)
         {
@@ -53,30 +88,15 @@ namespace CastingTask.Models
 
             } while (point > 100 || point < 0);
         }
-        public static void InpuTeachertSalary(double salary)
+        static void InputTeacherName(string name)
         {
-            do
-            {
-                Console.WriteLine("Maasi daxil edin");
-                salary = Convert.ToInt32(Console.ReadLine());
-                if (salary < 0)
-                {
-                    Console.WriteLine("Yanlis daxil etdiniz!");
-
-                }
-            } while (salary <= 0);
+            Console.WriteLine("Ad daxil edin");
+            name = Console.ReadLine();
         }
-        public static void InputAgeStudent(int age)
+        static void InputTeacherSurname(string surname)
         {
-            do
-            {
-                Console.WriteLine("Yasi daxil edin");
-                age = Convert.ToInt32(Console.ReadLine());
-                if (age < 6 || age > 20)
-                {
-                    Console.WriteLine("Yanlis daxil edilib");
-                }
-            } while (age < 6 || age > 20);
+            Console.WriteLine("Ad daxil edin");
+            surname = Console.ReadLine();
         }
         public static void InputAgeTeacher(int age)
         {
@@ -90,6 +110,21 @@ namespace CastingTask.Models
                 }
             } while (age < 18);
         }
+        public static void InpuTeachertSalary(double salary)
+        {
+            do
+            {
+                Console.WriteLine("Maasi daxil edin");
+                salary = Convert.ToInt32(Console.ReadLine());
+                if (salary < 0)
+                {
+                    Console.WriteLine("Yanlis daxil etdiniz!");
+
+                }
+            } while (salary <= 0);
+        }
+        
+      
 
 
     }
