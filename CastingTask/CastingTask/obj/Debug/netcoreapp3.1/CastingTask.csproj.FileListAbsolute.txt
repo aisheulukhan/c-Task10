@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\bin\Debug\netcoreapp3.1\CastingTask.exe
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\bin\Debug\netcoreapp3.1\CastingTask.deps.json
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\bin\Debug\netcoreapp3.1\CastingTask.runtimeconfig.json
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\bin\Debug\netcoreapp3.1\CastingTask.runtimeconfig.dev.json
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\bin\Debug\netcoreapp3.1\CastingTask.dll
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\bin\Debug\netcoreapp3.1\CastingTask.pdb
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\obj\Debug\netcoreapp3.1\CastingTask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\obj\Debug\netcoreapp3.1\CastingTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\obj\Debug\netcoreapp3.1\CastingTask.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\obj\Debug\netcoreapp3.1\CastingTask.AssemblyInfo.cs
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\obj\Debug\netcoreapp3.1\CastingTask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\obj\Debug\netcoreapp3.1\CastingTask.dll
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\obj\Debug\netcoreapp3.1\CastingTask.pdb
+C:\Users\HP\Desktop\Tasks\CastingTask\CastingTask\obj\Debug\netcoreapp3.1\CastingTask.genruntimeconfig.cache
